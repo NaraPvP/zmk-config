@@ -1,5 +1,5 @@
-config SHIELD_MY_BOARD_LEFT
-    def_bool $(shields_list_contains,my_board_left)
+config SHIELD_HOLD_IT_LEFT
+    def_bool $(shields_list_contains,hold_it_left)
 
-config SHIELD_MY_BOARD_RIGHT
-    def_bool $(shields_list_contains,my_board_right)
+config SHIELD_HOLD_IT_RIGHT
+    def_bool $(shields_list_contains,hold_it_right)
