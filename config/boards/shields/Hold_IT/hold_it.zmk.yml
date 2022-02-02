@@ -1,0 +1,12 @@
+file_format: "1"
+id: hold_it
+name: Hold-IT!
+type: shield
+url: https://github.com/NaraPvP/zmk-config
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - hold_it_left
+  - hold_it_right
